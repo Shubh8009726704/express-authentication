@@ -4,7 +4,7 @@ const mmongoose=require('mongoose')
 // there are three steps to create a database connection
 // first 
 // creating a connection
-mongoose.connect('mongodb://127.0.0.1:27017/authUser').then(()=>{
+mongoose.connect('mongodb+srv://shubham:Shubh@8055@authentication.l9mlkrk.mongodb.net/?retryWrites=true&w=majority').then(()=>{
     console.log('database connected')
 }).catch((err)=>console.log(err))
 
